@@ -1,0 +1,330 @@
+html, body, .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-repeat: no-repeat;
+    background-position: 51% 44%;
+    background-size: cover;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-bottom: 2px solid #fff;
+    box-sizing: border-box;
+}
+
+.banxin1 {
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 16px 20px;
+    box-sizing: border-box;
+}
+
+.banxin {
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header-top {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+
+.header-top_text {
+    float: right;
+}
+
+.header-top_text li {
+    padding: 8px 20px;
+    float: left;
+}
+
+.header-top_text li a {
+    font-size: 16px;
+    color: white;
+}
+
+.header-bd {
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    left: 0;
+    top: 350px;
+    z-index: 2;
+}
+
+.header-bd h1 {
+    font-size: 520%;
+    padding-bottom: 14px;
+}
+
+.header-bd a {
+    width: 225px;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    padding: 14px 26px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(122, 112, 101, 0.6) 0 6px 30px 0;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.banxin2 {
+    padding: 0 20px;
+}
+
+.header-bottom {
+    width: 100%;
+    height: 42px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    background: rgba(226, 61, 14, .1);
+}
+
+.icon2 {
+    float: left;
+    width: 52px;
+    background: #e23d0e;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+    margin-top: 13px;
+}
+
+.header-bottom_text {
+    float: left;
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+}
+
+.banxin3 {
+    padding: 0 10px;
+}
+
+.picture {
+    width: 100%;
+    height: 260px;
+    margin-left: -2px;
+    box-sizing: border-box;
+}
+
+.picture div {
+    width: 25%;
+    height: 260px;
+    float: left;
+    border-left: 1px solid #fff;
+    box-sizing: border-box
+}
+
+.picture div a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.weixin {
+    width: 100%;
+    height: 140px;
+}
+
+.weixin .box {
+    width: 33%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    display: inline-block;
+    float: left;
+}
+
+.weixin .box:nth-child(1) {
+    text-align: left
+}
+
+.weixin .box:nth-child(2) {
+    text-align: center
+}
+
+.weixin .box:nth-child(3) {
+    text-align: right
+}
+
+.banxin4 {
+    height: 100px;
+}
+
+.banxin4 img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.banxin4 .box div {
+    display: inline-block;
+    margin-left: 8px;
+    text-align: left;
+    font-size: 0;
+    vertical-align: middle;
+}
+
+.banxin4 .box div p {
+    font-size: 16px;
+}
+
+.banxin4 .box div p:nth-child(2) {
+    font-weight: 300;
+    margin-top: 4px;
+}
+
+.footer {
+    width: 100%;
+    height: 245px;
+    padding: 45px 0;
+    box-sizing: border-box
+}
+
+.footer .footer-left {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+
+.footer .footer-right {
+    width: 66.66%;
+    height: 100%;
+    float: left;
+    font-size: 0;
+}
+
+.footer .footer-left li:nth-child(1) {
+    width: 160px;
+    height: 36px;
+    background-image: url("https://mobike.com/cn/assets/themes/moby/img/logo-text.svg");
+    background-position: 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.footer .footer-left li {
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    height: 36px;
+    line-height: 36px;
+}
+
+.footer .footer-left li a {
+    color: black;
+}
+
+.footer-right_text {
+    width: 25%;
+    height: 100%;float: left;
+}
+
+
+
+
+
+
+
+.footer-right_text ul li {
+    text-align: left
+}
+
+.footer-right_text ul li {
+    height: 30px;
+    color: #000;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .banxin4 {
+        width: 768px;
+    }
+
+    .banxin5 {
+        width: 740px;
+    }.picture div{
+             width: 50%;}
+}
+@media screen and (max-width: 736px){ body {
+    width: 414px;
+    margin: 0 auto;
+}
+
+.banxin4 {
+    width: 414px;
+}
+
+.banxin5 {
+    width: 400px;
+}.picture div{
+     width: 100%;}
+
+    .weixin .box{
+     width: 100%;}
+    .weixin .box:nth-child(1) {
+                                       text-align: left
+                                   }
+
+    .weixin .box:nth-child(2) {
+        text-align: left
+    }
+
+    .weixin .box:nth-child(3) {
+        text-align: left
+    }
+
+
+    .banxin5 .footer-left{
+        width: 100%;}
+    .banxin5 .footer-right{
+        width: 100%;
+        height: 200px;}
+
+    .footer-right_text li{
+        width: 120px;}
+       .footer-right_text:nth-child(3){left:0;top:200px;}
+    .footer-right_text:nth-child(3)
+
+
+
+
+
+
+
+
+}
